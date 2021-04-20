@@ -8,13 +8,11 @@ body{
 }
 
 .container{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 1100px;
   height: 600px;
   overflow: hidden;
+  position: relative;
+  margin: 20px auto;
 }
 
 .slides{
@@ -43,11 +41,11 @@ body{
 }
 
 .navigation .bar{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
   background: transparent;
   border: 1px solid white;
-  margin: 30px;
+  margin: 16px;
   cursor: pointer;
 }
 
@@ -98,4 +96,33 @@ input#gambar-4:checked ~ .slides .navigation #bar-4{
 
 input#gambar-5:checked ~ .slides .navigation #bar-5{
   background: white;
+}
+
+@media (max-width: 1200px){
+  .container{
+    max-width: 70.9%;
+    height: auto;
+  }
+  .navigation .bar{
+    padding-left: 3.5vmax;
+    padding-right: 3.5vmax;
+  }
+}
+
+@media (max-width: 1000px){
+  .container{
+    max-width: 84%;
+  }
+}
+
+@media (max-width: 800px){
+  .container{
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px){
+  .container{
+    max-width: 100%;
+  }
 }
