@@ -126,3 +126,16 @@ input#gambar-5:checked ~ .slides .navigation #bar-5{
     max-width: 100%;
   }
 }
+
+@media (max-width: 500px){
+  .navigation .bar{
+    padding-left: 2.5vmax;
+    padding-right: 2.5vmax;
+  }
+}
+
+@media (max-width: 350px){
+  .navigation .bar{
+    margin: 7px;
+  }
+}
