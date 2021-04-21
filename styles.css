@@ -80,10 +80,6 @@ input{
   visibility: hidden;
 }
 
-input#gambar-1:checked ~ .slides .navigation #bar-1{
-  background: white;
-}
-
 input#gambar-2:checked ~ .slides .navigation #bar-2{
   background: white;
 }
