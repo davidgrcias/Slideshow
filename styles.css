@@ -131,6 +131,7 @@ input#gambar-5:checked ~ .slides .navigation #bar-5{
   .navigation .bar{
     padding-left: 2.5vmax;
     padding-right: 2.5vmax;
+    margin: 10px;
   }
 }
 
